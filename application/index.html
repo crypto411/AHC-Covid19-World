@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Input</title>
+</head>
+<body>
+    <form action="index_.php" method="post" enctype="multipart/form-data">
+        <ul>
+            <li>Unggah file berupa ekstensi ".xls" ".xlsx"</li>
+            <li>
+                Isian excel berupa:
+                <table border="1" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td># <span style="color: red">*</span></td>
+                        <td>Data <span style="color: red">*</span></td>
+                        <td>Fitur 1</td>
+                        <td>Fitur 2</td>
+                        <td>Fitur ...</td>
+                        <td>Fitur n</td>
+                        <td>Class <span style="color: red">*</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Kucing</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td></td>
+                        <td>N/A</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <input type="file" accept=".xls, .xlsx" name="fileToUpload" id="fileToUpload"><br>
+                <!-- <input type="number" name="maxCluster" value="2" min="2"> * Max Cluster (Min 2)<br> -->
+                <input type="submit" value="Proses Dataset" name="submit">
+            </li>
+        </ul>
+      </form>
+</body>
+</html>

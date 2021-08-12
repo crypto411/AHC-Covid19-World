@@ -1,0 +1,5 @@
+{
+    "require": {
+        "fondifond/hierarchical-clustering": "dev-master"
+    }
+}
